@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta chars onclick="insert('')"et="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Calculadora</title>
+    <link rel="stylesheet" href="Assets/CSS/estilo.css">
+    <script src="Assets/JS/functions.js"></script>
+</head>
+<body>
+    <header>
+        <nav >
+            <ul class="SocialMedia1">
+                <li class="socialMediaInstagram">
+                     <a href="https://www.linkedin.com/in/lucas-emanuel-37a175178" target="_blank">
+                        <img src="Assets/CSS/Images/linkedin.png" alt="Linkedin" width="35px" >
+                    </a>
+                </li>
+                <li class="socialMediaGitHub">
+                   <a href="https://github.com/lucasemanuel982" target="_blank">
+                        <img src="Assets/CSS/Images/github.png" alt="GitHub" width="35px">
+                    </a>
+                </div>
+                <li class="socialMediaInstagram">
+                    <a href="https://www.instagram.com/lucasemanuel6/" target="_blank">
+                        <img src="Assets/CSS/Images/instagram.png" width="35px" alt="Instagram" class="instagram">
+                    </a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <Section class="cal">
+            <header>
+                <div class="title">
+                    CALCULADORA
+                </div>
+            </header>
+        
+
+                <main class="prin">
+
+                    <div class="resultado">
+                        <p id="valor"></p>
+                    </div>
+
+                    <div class="sec">
+
+                        <button class="delet" onclick="cleanAll('.')" >C</button>
+                        <button class="char" onclick="insert('/')" >/</button>
+                        <button class="char" onclick="clean('<')"><</button>
+
+                            <button class="number" onclick="insert('7')" >7</button>
+                            <button class="number" onclick="insert('8')">8</button>
+                            <button class="number" onclick="insert('9')">9</button>
+                            <button class="char" onclick="insert('*')">*</button>
+                            <button class="number" onclick="insert('4')">4</button>
+                            <button class="number" onclick="insert('5')">5</button>
+                            <button class="number" onclick="insert('6')">6</button>
+                            <button class="char" onclick="insert('+')">+</button>
+                            <button class="number" onclick="insert('1')">1</button>
+                            <button class="number" onclick="insert('2')">2</button>
+                            <button class="number" onclick="insert('3')">3</button>
+                            <button class="char" onclick="insert('-')">-</button>
+                            <button class="zero" onclick="insert('0')">0</button>
+                            <button class="char" onclick="insert('.')">.</button>
+                            <button class="igual" onclick="calcular('=')">=</button>
+                    </div>
+                </main>
+        </Section>
+            
+            
+        
+        <aside>
+            <nav >
+                <ul class="SocialMedia">
+                    <li class="socialMediaInstagram">
+                         <a href="https://www.linkedin.com/in/lucas-emanuel-37a175178" target="_blank">
+                            <img src="Assets/CSS/Images/linkedin.png" alt="Linkedin" width="35px" >
+                        </a>
+                    </li>
+            
+                    <li class="socialMediaGitHub">
+                       <a href="https://github.com/lucasemanuel982" target="_blank">
+                            <img src="Assets/CSS/Images/github.png" alt="GitHub" width="35px">
+                        </a>
+                    </div>
+                    <li class="socialMediaInstagram">
+                        <a href="https://www.instagram.com/lucasemanuel6/" target="_blank">
+                            <img src="Assets/CSS/Images/instagram.png" width="35px" alt="Instagram" class="instagram">
+                        </a>
+            
+                    </div>
+                </ul>
+            </nav>
+        </aside>
+    </section>
+
+
+</body>
+</html>
